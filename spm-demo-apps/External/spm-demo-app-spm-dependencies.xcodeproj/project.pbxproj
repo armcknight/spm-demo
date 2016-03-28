@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495044191CB1CD6500351592 /* libTruncate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Truncate" /* libTruncate.dylib */; };
+		4950441A1CB1CD6500351592 /* libTruncate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Truncate" /* libTruncate.dylib */; };
+		4950441B1CB1CD6500351592 /* libLeftPad.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LeftPad" /* libLeftPad.dylib */; };
+		4950441C1CB1CD6500351592 /* libTruncate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Truncate" /* libTruncate.dylib */; };
+		4950441D1CB1CD6500351592 /* libLeftPad.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LeftPad" /* libLeftPad.dylib */; };
+		4950441E1CB1CD6500351592 /* libTruncate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Truncate" /* libTruncate.dylib */; };
+		_LinkFileRef_Columnize /* libColumnize.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Columnize" /* libColumnize.dylib */; };
+		_LinkFileRef_LeftPad /* libLeftPad.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_LeftPad" /* libLeftPad.dylib */; };
+		_LinkFileRef_Truncate /* libTruncate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Truncate" /* libTruncate.dylib */; };
+		"__src_cc_ref_Packages/Columnize-1.0.0/Sources/Columnize-String.swift" /* Columnize-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Columnize-1.0.0/Sources/Columnize-String.swift" /* Columnize-String.swift */; };
+		"__src_cc_ref_Packages/Columnize-1.0.0/Tests/Columnize/ColumnizeTests.swift" /* ColumnizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Columnize-1.0.0/Tests/Columnize/ColumnizeTests.swift" /* ColumnizeTests.swift */; };
+		"__src_cc_ref_Packages/LeftPad-1.0.0/Sources/LeftPad-String.swift" /* LeftPad-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/LeftPad-1.0.0/Sources/LeftPad-String.swift" /* LeftPad-String.swift */; };
+		"__src_cc_ref_Packages/LeftPad-1.0.0/Tests/LeftPad/LeftPadTests.swift" /* LeftPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/LeftPad-1.0.0/Tests/LeftPad/LeftPadTests.swift" /* LeftPadTests.swift */; };
+		"__src_cc_ref_Packages/Truncate-1.0.0/Sources/Truncate-String.swift" /* Truncate-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Truncate-1.0.0/Sources/Truncate-String.swift" /* Truncate-String.swift */; };
+		"__src_cc_ref_Packages/Truncate-1.0.0/Tests/Truncate/TruncateTests.swift" /* TruncateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Truncate-1.0.0/Tests/Truncate/TruncateTests.swift" /* TruncateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4950441F1CB1CD6500351592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Truncate";
+			remoteInfo = Truncate;
+		};
+		495044201CB1CD6500351592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_LeftPad";
+			remoteInfo = LeftPad;
+		};
+		495044211CB1CD6500351592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Columnize";
+			remoteInfo = Columnize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = "/Users/andrew/Projects/Personal/spm-demo/spm-demo-apps/External/Package.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Columnize-1.0.0/Sources/Columnize-String.swift" /* Columnize-String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Columnize-String.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Columnize-1.0.0/Tests/Columnize/ColumnizeTests.swift" /* ColumnizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnizeTests.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/LeftPad-1.0.0/Sources/LeftPad-String.swift" /* LeftPad-String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeftPad-String.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/LeftPad-1.0.0/Tests/LeftPad/LeftPadTests.swift" /* LeftPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftPadTests.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Truncate-1.0.0/Sources/Truncate-String.swift" /* Truncate-String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Truncate-String.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Truncate-1.0.0/Tests/Truncate/TruncateTests.swift" /* TruncateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruncateTests.swift; sourceTree = "<group>"; };
+		"_____Product_Columnize" /* libColumnize.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libColumnize.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ColumnizeTestSuite" /* ColumnizeTestSuite.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = ColumnizeTestSuite.xctest; path = Columnize.testsuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_LeftPad" /* libLeftPad.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libLeftPad.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_LeftPadTestSuite" /* LeftPadTestSuite.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = LeftPadTestSuite.xctest; path = LeftPad.testsuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Truncate" /* libTruncate.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libTruncate.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_TruncateTestSuite" /* TruncateTestSuite.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = TruncateTestSuite.xctest; path = Truncate.testsuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_Columnize" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				4950441B1CB1CD6500351592 /* libLeftPad.dylib in Frameworks */,
+				4950441C1CB1CD6500351592 /* libTruncate.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_ColumnizeTestSuite" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				4950441D1CB1CD6500351592 /* libLeftPad.dylib in Frameworks */,
+				4950441E1CB1CD6500351592 /* libTruncate.dylib in Frameworks */,
+				_LinkFileRef_Columnize /* libColumnize.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_LeftPad" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				495044191CB1CD6500351592 /* libTruncate.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_LeftPadTestSuite" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				4950441A1CB1CD6500351592 /* libTruncate.dylib in Frameworks */,
+				_LinkFileRef_LeftPad /* libLeftPad.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Truncate" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_TruncateTestSuite" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_Truncate /* libTruncate.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		TestProducts_ /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_TruncateTestSuite" /* TruncateTestSuite.xctest */,
+				"_____Product_LeftPadTestSuite" /* LeftPadTestSuite.xctest */,
+				"_____Product_ColumnizeTestSuite" /* ColumnizeTestSuite.xctest */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Sources_" /* Sources */,
+				"_______Tests_" /* Tests */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				TestProducts_ /* Tests */,
+				"_____Product_Truncate" /* libTruncate.dylib */,
+				"_____Product_LeftPad" /* libLeftPad.dylib */,
+				"_____Product_Columnize" /* libColumnize.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_Truncate" /* Truncate */,
+				"_______Group_LeftPad" /* LeftPad */,
+				"_______Group_Columnize" /* Columnize */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_Columnize" /* Columnize */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Columnize-1.0.0/Sources/Columnize-String.swift" /* Columnize-String.swift */,
+			);
+			name = Columnize;
+			path = "Packages/Columnize-1.0.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_ColumnizeTestSuite" /* Columnize.testsuite */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Columnize-1.0.0/Tests/Columnize/ColumnizeTests.swift" /* ColumnizeTests.swift */,
+			);
+			name = Columnize.testsuite;
+			path = "Packages/Columnize-1.0.0/Tests/Columnize";
+			sourceTree = "<group>";
+		};
+		"_______Group_LeftPad" /* LeftPad */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/LeftPad-1.0.0/Sources/LeftPad-String.swift" /* LeftPad-String.swift */,
+			);
+			name = LeftPad;
+			path = "Packages/LeftPad-1.0.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_LeftPadTestSuite" /* LeftPad.testsuite */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/LeftPad-1.0.0/Tests/LeftPad/LeftPadTests.swift" /* LeftPadTests.swift */,
+			);
+			name = LeftPad.testsuite;
+			path = "Packages/LeftPad-1.0.0/Tests/LeftPad";
+			sourceTree = "<group>";
+		};
+		"_______Group_Truncate" /* Truncate */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Truncate-1.0.0/Sources/Truncate-String.swift" /* Truncate-String.swift */,
+			);
+			name = Truncate;
+			path = "Packages/Truncate-1.0.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_TruncateTestSuite" /* Truncate.testsuite */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Truncate-1.0.0/Tests/Truncate/TruncateTests.swift" /* TruncateTests.swift */,
+			);
+			name = Truncate.testsuite;
+			path = "Packages/Truncate-1.0.0/Tests/Truncate";
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_TruncateTestSuite" /* Truncate.testsuite */,
+				"_______Group_LeftPadTestSuite" /* LeftPad.testsuite */,
+				"_______Group_ColumnizeTestSuite" /* Columnize.testsuite */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_Columnize" /* Columnize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Columnize" /* Build configuration list for PBXNativeTarget "Columnize" */;
+			buildPhases = (
+				CompilePhase_Columnize /* Sources */,
+				"___LinkPhase_Columnize" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_LeftPad /* PBXTargetDependency */,
+				__Dependency_Truncate /* PBXTargetDependency */,
+			);
+			name = Columnize;
+			productName = Columnize;
+			productReference = "_____Product_Columnize" /* libColumnize.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_ColumnizeTestSuite" /* Columnize.testsuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ColumnizeTestSuite" /* Build configuration list for PBXNativeTarget "Columnize.testsuite" */;
+			buildPhases = (
+				CompilePhase_ColumnizeTestSuite /* Sources */,
+				"___LinkPhase_ColumnizeTestSuite" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_LeftPad /* PBXTargetDependency */,
+				__Dependency_Truncate /* PBXTargetDependency */,
+				__Dependency_Columnize /* PBXTargetDependency */,
+			);
+			name = Columnize.testsuite;
+			productName = ColumnizeTestSuite;
+			productReference = "_____Product_ColumnizeTestSuite" /* ColumnizeTestSuite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"______Target_LeftPad" /* LeftPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_LeftPad" /* Build configuration list for PBXNativeTarget "LeftPad" */;
+			buildPhases = (
+				CompilePhase_LeftPad /* Sources */,
+				"___LinkPhase_LeftPad" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Truncate /* PBXTargetDependency */,
+			);
+			name = LeftPad;
+			productName = LeftPad;
+			productReference = "_____Product_LeftPad" /* libLeftPad.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_LeftPadTestSuite" /* LeftPad.testsuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_LeftPadTestSuite" /* Build configuration list for PBXNativeTarget "LeftPad.testsuite" */;
+			buildPhases = (
+				CompilePhase_LeftPadTestSuite /* Sources */,
+				"___LinkPhase_LeftPadTestSuite" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Truncate /* PBXTargetDependency */,
+				__Dependency_LeftPad /* PBXTargetDependency */,
+			);
+			name = LeftPad.testsuite;
+			productName = LeftPadTestSuite;
+			productReference = "_____Product_LeftPadTestSuite" /* LeftPadTestSuite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"______Target_Truncate" /* Truncate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Truncate" /* Build configuration list for PBXNativeTarget "Truncate" */;
+			buildPhases = (
+				CompilePhase_Truncate /* Sources */,
+				"___LinkPhase_Truncate" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Truncate;
+			productName = Truncate;
+			productReference = "_____Product_Truncate" /* libTruncate.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_TruncateTestSuite" /* Truncate.testsuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_TruncateTestSuite" /* Build configuration list for PBXNativeTarget "Truncate.testsuite" */;
+			buildPhases = (
+				CompilePhase_TruncateTestSuite /* Sources */,
+				"___LinkPhase_TruncateTestSuite" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Truncate /* PBXTargetDependency */,
+			);
+			name = Truncate.testsuite;
+			productName = TruncateTestSuite;
+			productReference = "_____Product_TruncateTestSuite" /* TruncateTestSuite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "spm-demo-app-spm-dependencies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_Truncate" /* Truncate */,
+				"______Target_TruncateTestSuite" /* Truncate.testsuite */,
+				"______Target_LeftPad" /* LeftPad */,
+				"______Target_LeftPadTestSuite" /* LeftPad.testsuite */,
+				"______Target_Columnize" /* Columnize */,
+				"______Target_ColumnizeTestSuite" /* Columnize.testsuite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_Columnize /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Columnize-1.0.0/Sources/Columnize-String.swift" /* Columnize-String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_ColumnizeTestSuite /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Columnize-1.0.0/Tests/Columnize/ColumnizeTests.swift" /* ColumnizeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_LeftPad /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/LeftPad-1.0.0/Sources/LeftPad-String.swift" /* LeftPad-String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_LeftPadTestSuite /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/LeftPad-1.0.0/Tests/LeftPad/LeftPadTests.swift" /* LeftPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Truncate /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Truncate-1.0.0/Sources/Truncate-String.swift" /* Truncate-String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_TruncateTestSuite /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Truncate-1.0.0/Tests/Truncate/TruncateTests.swift" /* TruncateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_Columnize /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Columnize" /* Columnize */;
+			targetProxy = 495044211CB1CD6500351592 /* PBXContainerItemProxy */;
+		};
+		__Dependency_LeftPad /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_LeftPad" /* LeftPad */;
+			targetProxy = 495044201CB1CD6500351592 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Truncate /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Truncate" /* Truncate */;
+			targetProxy = 4950441F1CB1CD6500351592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_Columnize /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Columnize;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_ColumnizeTestSuite /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = ColumnizeTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_LeftPad /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = LeftPad;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_LeftPadTestSuite /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = LeftPadTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Truncate /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Truncate;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_TruncateTestSuite /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = TruncateTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		"___DebugConf_Columnize" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Columnize;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_ColumnizeTestSuite" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = ColumnizeTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_LeftPad" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = LeftPad;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_LeftPadTestSuite" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = LeftPadTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Truncate" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Truncate;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_TruncateTestSuite" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = TruncateTestSuite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "spm-demo-app-spm-dependencies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Columnize" /* Build configuration list for PBXNativeTarget "Columnize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Columnize" /* Debug */,
+				_ReleaseConf_Columnize /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ColumnizeTestSuite" /* Build configuration list for PBXNativeTarget "Columnize.testsuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ColumnizeTestSuite" /* Debug */,
+				_ReleaseConf_ColumnizeTestSuite /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_LeftPad" /* Build configuration list for PBXNativeTarget "LeftPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_LeftPad" /* Debug */,
+				_ReleaseConf_LeftPad /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_LeftPadTestSuite" /* Build configuration list for PBXNativeTarget "LeftPad.testsuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_LeftPadTestSuite" /* Debug */,
+				_ReleaseConf_LeftPadTestSuite /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Truncate" /* Build configuration list for PBXNativeTarget "Truncate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Truncate" /* Debug */,
+				_ReleaseConf_Truncate /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_TruncateTestSuite" /* Build configuration list for PBXNativeTarget "Truncate.testsuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_TruncateTestSuite" /* Debug */,
+				_ReleaseConf_TruncateTestSuite /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}

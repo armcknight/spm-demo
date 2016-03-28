@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "63857A5550C5F57FF031CF1080BD7C72162B1A02",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E2FC865D74427C2619F03D334D2D79A267E6DF7C" : 0,
+    "8F644E4739A963D7B1E675F6C4DC2C799AD3C6EE" : 0,
+    "8C99586FBCB9EBDBAB38BB471C7F78B685619FE6" : 0,
+    "63857A5550C5F57FF031CF1080BD7C72162B1A02" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CFE4BCA8-4E0F-4CDA-B2CA-86E88E53C13E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E2FC865D74427C2619F03D334D2D79A267E6DF7C" : "spm-demo\/spm-demo-apps\/External\/Packages\/LeftPad-1.0.0\/",
+    "8F644E4739A963D7B1E675F6C4DC2C799AD3C6EE" : "spm-demo\/spm-demo-apps\/External\/Packages\/Columnize-1.0.0\/",
+    "8C99586FBCB9EBDBAB38BB471C7F78B685619FE6" : "spm-demo\/spm-demo-apps\/External\/Packages\/Truncate-1.0.0\/",
+    "63857A5550C5F57FF031CF1080BD7C72162B1A02" : "spm-demo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "spm-demo-apps",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "spm-demo-apps\/spm-demo-apps.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:armcknight\/spm-demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "63857A5550C5F57FF031CF1080BD7C72162B1A02"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/armcknight\/truncate.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C99586FBCB9EBDBAB38BB471C7F78B685619FE6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/armcknight\/columnize.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F644E4739A963D7B1E675F6C4DC2C799AD3C6EE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/armcknight\/leftpad.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2FC865D74427C2619F03D334D2D79A267E6DF7C"
+    }
+  ]
+}

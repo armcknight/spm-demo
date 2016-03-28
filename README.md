@@ -1,0 +1,9 @@
+#spm-demo-apps
+
+**Note:** Currently, SPM only works with OS X apps.
+
+This project pulls in some Swift packages that extend `String` to left pad ([LeftPad](https://github.com/armcknight/leftpad.swift)), truncate ([Truncate](https://github.com/armcknight/truncate.swift)), and force into a column width ([Columnize](https://github.com/armcknight/columnize.swift)). Columnize depends on both Truncate and LeftPad, so only Columnize is listed as a dependency in `spm-demo-apps/External/Package.swift`, but everything gets pulled in.
+
+Currently, `swift-build` can assemble the dependencies from the `Package.swift` description, but can't actually build the libraries with the version of `swiftc` that ships in the dev snapshot with `swift-build` (last checked with [https://swift.org/builds/development/xcode/swift-DEVELOPMENT-SNAPSHOT-2016-03-24-a/swift-DEVELOPMENT-SNAPSHOT-2016-03-24-a-osx.pkg](https://swift.org/builds/development/xcode/swift-DEVELOPMENT-SNAPSHOT-2016-03-24-a/swift-DEVELOPMENT-SNAPSHOT-2016-03-24-a-osx.pkg)). (This may change once the changes merged in https://github.com/apple/swift-package-manager/pull/230 get introduced into an upcoming snapshot.) So I ran `swift-build` on the command line (as well as with the `-X` flag to generate `spm-demo-apps/External/spm-demo-app-spm-dependencies.xcodeproj`) and everything is checked into the repo and hardwired to link the dependency dylibs.
+
+When `swift-build` does gain the ability to build the libraries, then a “Run Script” Build Phase could probably be written to automatically run `swift-build` (this is currently prototyped in the “Update SPM Dependencies” “Run Script” Build Phase of the OS X demo app's target), and the libaries' locations could be set in `LIBRARY_SEARCH_PATHS`, instead of manually linking them in the “Link Binary With Libraries” Build Phase. Then there'd be no need to generate the Xcode project housing the dependencies, either.

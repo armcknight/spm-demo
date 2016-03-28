@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49500DA51CB1C53D00947B10 /* libColumnize.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49500D9F1CB1C4FF00947B10 /* libColumnize.dylib */; };
+		49500DA61CB1C53D00947B10 /* libLeftPad.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49500D9B1CB1C4FF00947B10 /* libLeftPad.dylib */; };
+		49500DA71CB1C53D00947B10 /* libTruncate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49500D971CB1C4FF00947B10 /* libTruncate.dylib */; };
+		495086311CB1C046008348F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495086301CB1C046008348F0 /* AppDelegate.swift */; };
+		495086331CB1C046008348F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495086321CB1C046008348F0 /* ViewController.swift */; };
+		495086351CB1C046008348F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495086341CB1C046008348F0 /* Assets.xcassets */; };
+		495086381CB1C046008348F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495086361CB1C046008348F0 /* Main.storyboard */; };
+		495086431CB1C046008348F0 /* spm_demo_osxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495086421CB1C046008348F0 /* spm_demo_osxTests.swift */; };
+		4950864E1CB1C046008348F0 /* spm_demo_osxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950864D1CB1C046008348F0 /* spm_demo_osxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49500D961CB1C4FF00947B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49500D871CB1C4FF00947B10 /* spm-demo-app-spm-dependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_Truncate";
+			remoteInfo = Truncate;
+		};
+		49500D981CB1C4FF00947B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49500D871CB1C4FF00947B10 /* spm-demo-app-spm-dependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_TruncateTestSuite";
+			remoteInfo = Truncate.testsuite;
+		};
+		49500D9A1CB1C4FF00947B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49500D871CB1C4FF00947B10 /* spm-demo-app-spm-dependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_LeftPad";
+			remoteInfo = LeftPad;
+		};
+		49500D9C1CB1C4FF00947B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49500D871CB1C4FF00947B10 /* spm-demo-app-spm-dependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_LeftPadTestSuite";
+			remoteInfo = LeftPad.testsuite;
+		};
+		49500D9E1CB1C4FF00947B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49500D871CB1C4FF00947B10 /* spm-demo-app-spm-dependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_Columnize";
+			remoteInfo = Columnize;
+		};
+		49500DA01CB1C4FF00947B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49500D871CB1C4FF00947B10 /* spm-demo-app-spm-dependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_ColumnizeTestSuite";
+			remoteInfo = Columnize.testsuite;
+		};
+		4950863F1CB1C046008348F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495086231CB1C035008348F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4950862C1CB1C046008348F0;
+			remoteInfo = "spm-demo-osx";
+		};
+		4950864A1CB1C046008348F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495086231CB1C035008348F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4950862C1CB1C046008348F0;
+			remoteInfo = "spm-demo-osx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49500D871CB1C4FF00947B10 /* spm-demo-app-spm-dependencies.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "spm-demo-app-spm-dependencies.xcodeproj"; path = "External/spm-demo-app-spm-dependencies.xcodeproj"; sourceTree = "<group>"; };
+		4950862D1CB1C046008348F0 /* spm-demo-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spm-demo-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495086301CB1C046008348F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		495086321CB1C046008348F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		495086341CB1C046008348F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		495086371CB1C046008348F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		495086391CB1C046008348F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4950863E1CB1C046008348F0 /* spm-demo-osxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spm-demo-osxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495086421CB1C046008348F0 /* spm_demo_osxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spm_demo_osxTests.swift; sourceTree = "<group>"; };
+		495086441CB1C046008348F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495086491CB1C046008348F0 /* spm-demo-osxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spm-demo-osxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4950864D1CB1C046008348F0 /* spm_demo_osxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spm_demo_osxUITests.swift; sourceTree = "<group>"; };
+		4950864F1CB1C046008348F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4950862A1CB1C046008348F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49500DA51CB1C53D00947B10 /* libColumnize.dylib in Frameworks */,
+				49500DA61CB1C53D00947B10 /* libLeftPad.dylib in Frameworks */,
+				49500DA71CB1C53D00947B10 /* libTruncate.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4950863B1CB1C046008348F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495086461CB1C046008348F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49500D881CB1C4FF00947B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49500D971CB1C4FF00947B10 /* libTruncate.dylib */,
+				49500D991CB1C4FF00947B10 /* Truncate.testsuite.xctest */,
+				49500D9B1CB1C4FF00947B10 /* libLeftPad.dylib */,
+				49500D9D1CB1C4FF00947B10 /* LeftPad.testsuite.xctest */,
+				49500D9F1CB1C4FF00947B10 /* libColumnize.dylib */,
+				49500DA11CB1C4FF00947B10 /* Columnize.testsuite.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495086221CB1C035008348F0 = {
+			isa = PBXGroup;
+			children = (
+				49500D871CB1C4FF00947B10 /* spm-demo-app-spm-dependencies.xcodeproj */,
+				4950862F1CB1C046008348F0 /* spm-demo-osx */,
+				495086411CB1C046008348F0 /* spm-demo-osxTests */,
+				4950864C1CB1C046008348F0 /* spm-demo-osxUITests */,
+				4950862E1CB1C046008348F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4950862E1CB1C046008348F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4950862D1CB1C046008348F0 /* spm-demo-osx.app */,
+				4950863E1CB1C046008348F0 /* spm-demo-osxTests.xctest */,
+				495086491CB1C046008348F0 /* spm-demo-osxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4950862F1CB1C046008348F0 /* spm-demo-osx */ = {
+			isa = PBXGroup;
+			children = (
+				495086301CB1C046008348F0 /* AppDelegate.swift */,
+				495086321CB1C046008348F0 /* ViewController.swift */,
+				495086341CB1C046008348F0 /* Assets.xcassets */,
+				495086361CB1C046008348F0 /* Main.storyboard */,
+				495086391CB1C046008348F0 /* Info.plist */,
+			);
+			path = "spm-demo-osx";
+			sourceTree = "<group>";
+		};
+		495086411CB1C046008348F0 /* spm-demo-osxTests */ = {
+			isa = PBXGroup;
+			children = (
+				495086421CB1C046008348F0 /* spm_demo_osxTests.swift */,
+				495086441CB1C046008348F0 /* Info.plist */,
+			);
+			path = "spm-demo-osxTests";
+			sourceTree = "<group>";
+		};
+		4950864C1CB1C046008348F0 /* spm-demo-osxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4950864D1CB1C046008348F0 /* spm_demo_osxUITests.swift */,
+				4950864F1CB1C046008348F0 /* Info.plist */,
+			);
+			path = "spm-demo-osxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4950862C1CB1C046008348F0 /* spm-demo-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495086501CB1C046008348F0 /* Build configuration list for PBXNativeTarget "spm-demo-osx" */;
+			buildPhases = (
+				495086591CB1C07A008348F0 /* Update SPM Dependencies */,
+				495086291CB1C046008348F0 /* Sources */,
+				4950862A1CB1C046008348F0 /* Frameworks */,
+				4950862B1CB1C046008348F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spm-demo-osx";
+			productName = "spm-demo-osx";
+			productReference = 4950862D1CB1C046008348F0 /* spm-demo-osx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4950863D1CB1C046008348F0 /* spm-demo-osxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495086531CB1C046008348F0 /* Build configuration list for PBXNativeTarget "spm-demo-osxTests" */;
+			buildPhases = (
+				4950863A1CB1C046008348F0 /* Sources */,
+				4950863B1CB1C046008348F0 /* Frameworks */,
+				4950863C1CB1C046008348F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495086401CB1C046008348F0 /* PBXTargetDependency */,
+			);
+			name = "spm-demo-osxTests";
+			productName = "spm-demo-osxTests";
+			productReference = 4950863E1CB1C046008348F0 /* spm-demo-osxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		495086481CB1C046008348F0 /* spm-demo-osxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495086561CB1C046008348F0 /* Build configuration list for PBXNativeTarget "spm-demo-osxUITests" */;
+			buildPhases = (
+				495086451CB1C046008348F0 /* Sources */,
+				495086461CB1C046008348F0 /* Frameworks */,
+				495086471CB1C046008348F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4950864B1CB1C046008348F0 /* PBXTargetDependency */,
+			);
+			name = "spm-demo-osxUITests";
+			productName = "spm-demo-osxUITests";
+			productReference = 495086491CB1C046008348F0 /* spm-demo-osxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495086231CB1C035008348F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					4950862C1CB1C046008348F0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4950863D1CB1C046008348F0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4950862C1CB1C046008348F0;
+					};
+					495086481CB1C046008348F0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4950862C1CB1C046008348F0;
+					};
+				};
+			};
+			buildConfigurationList = 495086261CB1C035008348F0 /* Build configuration list for PBXProject "spm-demo-apps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 495086221CB1C035008348F0;
+			productRefGroup = 4950862E1CB1C046008348F0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 49500D881CB1C4FF00947B10 /* Products */;
+					ProjectRef = 49500D871CB1C4FF00947B10 /* spm-demo-app-spm-dependencies.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4950862C1CB1C046008348F0 /* spm-demo-osx */,
+				4950863D1CB1C046008348F0 /* spm-demo-osxTests */,
+				495086481CB1C046008348F0 /* spm-demo-osxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		49500D971CB1C4FF00947B10 /* libTruncate.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libTruncate.dylib;
+			remoteRef = 49500D961CB1C4FF00947B10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49500D991CB1C4FF00947B10 /* Truncate.testsuite.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Truncate.testsuite.xctest;
+			remoteRef = 49500D981CB1C4FF00947B10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49500D9B1CB1C4FF00947B10 /* libLeftPad.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libLeftPad.dylib;
+			remoteRef = 49500D9A1CB1C4FF00947B10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49500D9D1CB1C4FF00947B10 /* LeftPad.testsuite.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LeftPad.testsuite.xctest;
+			remoteRef = 49500D9C1CB1C4FF00947B10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49500D9F1CB1C4FF00947B10 /* libColumnize.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libColumnize.dylib;
+			remoteRef = 49500D9E1CB1C4FF00947B10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49500DA11CB1C4FF00947B10 /* Columnize.testsuite.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Columnize.testsuite.xctest;
+			remoteRef = 49500DA01CB1C4FF00947B10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4950862B1CB1C046008348F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495086351CB1C046008348F0 /* Assets.xcassets in Resources */,
+				495086381CB1C046008348F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4950863C1CB1C046008348F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495086471CB1C046008348F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		495086591CB1C07A008348F0 /* Update SPM Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update SPM Dependencies";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# swift-build currently cannot build the packages with the swift 3 compiler. when this is fixed, this can be used maybe.\n# the change merged in https://github.com/apple/swift-package-manager/pull/230 might also help when it makes its way into a dev snapshot\n#/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin/swift-build --chdir $SRCROOT/External";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495086291CB1C046008348F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495086331CB1C046008348F0 /* ViewController.swift in Sources */,
+				495086311CB1C046008348F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4950863A1CB1C046008348F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495086431CB1C046008348F0 /* spm_demo_osxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495086451CB1C046008348F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4950864E1CB1C046008348F0 /* spm_demo_osxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		495086401CB1C046008348F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4950862C1CB1C046008348F0 /* spm-demo-osx */;
+			targetProxy = 4950863F1CB1C046008348F0 /* PBXContainerItemProxy */;
+		};
+		4950864B1CB1C046008348F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4950862C1CB1C046008348F0 /* spm-demo-osx */;
+			targetProxy = 4950864A1CB1C046008348F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		495086361CB1C046008348F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495086371CB1C046008348F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495086271CB1C035008348F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		495086281CB1C035008348F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		495086511CB1C046008348F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "spm-demo-osx/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.two-ring-soft.spm-demo-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		495086521CB1C046008348F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "spm-demo-osx/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.two-ring-soft.spm-demo-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		495086541CB1C046008348F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "spm-demo-osxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.two-ring-soft.spm-demo-osxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spm-demo-osx.app/Contents/MacOS/spm-demo-osx";
+			};
+			name = Debug;
+		};
+		495086551CB1C046008348F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "spm-demo-osxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.two-ring-soft.spm-demo-osxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spm-demo-osx.app/Contents/MacOS/spm-demo-osx";
+			};
+			name = Release;
+		};
+		495086571CB1C046008348F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "spm-demo-osxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.two-ring-soft.spm-demo-osxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "spm-demo-osx";
+			};
+			name = Debug;
+		};
+		495086581CB1C046008348F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "spm-demo-osxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.two-ring-soft.spm-demo-osxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "spm-demo-osx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495086261CB1C035008348F0 /* Build configuration list for PBXProject "spm-demo-apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495086271CB1C035008348F0 /* Debug */,
+				495086281CB1C035008348F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495086501CB1C046008348F0 /* Build configuration list for PBXNativeTarget "spm-demo-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495086511CB1C046008348F0 /* Debug */,
+				495086521CB1C046008348F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495086531CB1C046008348F0 /* Build configuration list for PBXNativeTarget "spm-demo-osxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495086541CB1C046008348F0 /* Debug */,
+				495086551CB1C046008348F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495086561CB1C046008348F0 /* Build configuration list for PBXNativeTarget "spm-demo-osxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495086571CB1C046008348F0 /* Debug */,
+				495086581CB1C046008348F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495086231CB1C035008348F0 /* Project object */;
+}
